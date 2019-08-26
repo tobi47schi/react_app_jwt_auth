@@ -12,7 +12,6 @@ export function removeAccessToken() {
     sessionStorage.removeItem('access_token')
 }
 
-
 export function login(user) {
     axios.post('http://localhost:5000/login', user).then(
         

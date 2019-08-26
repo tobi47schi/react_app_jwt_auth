@@ -11,6 +11,7 @@ class LoginForm extends React.Component {
         password: ''
     };
     
+    
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this); 
   }

@@ -1,7 +1,6 @@
 import React from 'react';
 import LoginForm from './LoginForm';
 
-
 class Content extends React.Component {
   constructor() {
     super();
